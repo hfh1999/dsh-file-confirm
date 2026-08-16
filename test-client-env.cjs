@@ -1,5 +1,5 @@
 // 模拟浏览器 ModuleLoader 的隔离环境（vm 上下文，无全局 module/exports），
-// 验证 @local/dsh-file-confirm 的 client bundle 在真实 loader 环境下能否加载。
+// 验证 dsh-file-confirm 的 client bundle 在真实 loader 环境下能否加载。
 'use strict';
 const fs = require('fs');
 const path = require('path');

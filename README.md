@@ -1,4 +1,4 @@
-# @local/dsh-file-confirm — 文件改动确认机制
+# dsh-file-confirm — 文件改动确认机制
 
 双面插件：**任何文件改动（write / edit / str_replace_editor 的写命令）执行前，都会在
 输入区出现确认条，确认条内直接展示 diff 红绿文本**（新建全绿、编辑红删绿增）；
