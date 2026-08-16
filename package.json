@@ -26,7 +26,8 @@
     "lib",
     "cordis.patch.yml",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "showtime.png"
   ],
   "exports": {
     ".": "./lib/index.js",
