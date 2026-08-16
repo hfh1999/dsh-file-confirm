@@ -1,5 +1,9 @@
 # dsh-file-confirm — 文件改动确认机制
 
+[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
+[![npm](https://img.shields.io/npm/v/dsh-file-confirm)](https://www.npmjs.com/package/dsh-file-confirm)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 双面插件：**任何文件改动（write / edit / str_replace_editor 的写命令）执行前，都会在
 输入区出现确认条，确认条内直接展示 diff 红绿文本**（新建全绿、编辑红删绿增）；
 用户点「允许本次」才放行，点「拒绝」则该次工具调用以失败结束（模型能看到拒绝原因并调整）。
@@ -7,6 +11,15 @@
 ## 演示效果
 
 ![文件改动确认演示](showtime.png)
+
+## 与生态对比
+
+| 插件 | 定位 | 差异 |
+|---|---|---|
+| `dsh-tool-approval` | 任意工具调用预审批（include/exclude 通配符） | 通用黑盒确认（只显示工具名+原因），**无内容预览** |
+| `dsh-permgate` | 细粒度权限网关（规则/白黑名单/分类） | 重型权限管理，需要配置规则 |
+| `dsh-change-review` | 会话内 write/edit **事后** diff 审查 | 写后审查，非写前确认 |
+| **本插件** | **写前确认 + 内嵌 diff 内容预览** | 零配置、专注文件写入、允许/拒绝前看到确切改动 |
 
 ## 原理
 
