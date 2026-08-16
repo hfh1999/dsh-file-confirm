@@ -2,6 +2,7 @@
 node_modules/
 *.tgz
 .npm-tmp-cache/
+npm-debug.log*
 
 # OS
 .DS_Store
@@ -10,3 +11,7 @@ Thumbs.db
 # editor
 .vscode/
 .idea/
+*.swp
+
+# logs
+*.log
