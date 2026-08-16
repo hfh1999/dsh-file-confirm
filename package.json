@@ -1,6 +1,6 @@
 {
   "name": "dsh-file-confirm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "文件改动确认机制（双面插件）：write/edit/str_replace_editor 写入前弹出确认条，内嵌 GitHub 风格 diff（行号 + 红删绿增），允许本次 / 拒绝。File-change confirmation with inline diff for DeepSeek Harness.",
   "keywords": [
     "deepseek-harness",
