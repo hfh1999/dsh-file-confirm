@@ -113,4 +113,9 @@ cordis.patch.yml   bundle patch：dsh plugin add 时自动注册插件行
 package.json       双面插件声明（dsh.bundle + dsh.client）
 lib/index.js       Host 半身：tools/pre-execute 拦截
 lib/client.js      Browser 半身：conversation.composer chain + 内嵌 diff 确认条
+showtime.png       演示截图
 ```
+
+## 许可证
+
+[MIT](LICENSE) © 2026 dsh-file-confirm contributors
