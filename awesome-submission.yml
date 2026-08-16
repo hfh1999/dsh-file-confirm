@@ -1,0 +1,16 @@
+# awesome-dsh-plugin 投稿文件
+# 用法：PR 到 https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
+# 放到仓库的 data/plugins/ 目录，文件名：hfh1999__dsh-file-confirm.yml
+# 提交后维护脚本会自动生成 README 条目（不要手工编辑 README）
+#
+# ⚠️ 提交前确认：
+#   1. 仓库已添加 dsh-plugin topic
+#   2. package.json 已声明 dsh.bundle（已就绪 ✅）
+#   3. 仓库创建满 1 天、提交数 ≥ 10
+
+url: https://github.com/hfh1999/dsh-file-confirm
+name: hfh1999/dsh-file-confirm
+category: tools
+description:
+  en: Write-time file-change confirmation with an inline line-numbered diff (red-delete / green-add) for DeepSeek Harness; allow-once or reject before write/edit executes.
+  zh: 写文件前弹出确认条并内嵌带行号的 diff 红绿预览（write/edit/str_replace_editor），点「允许本次」才执行，点「拒绝」则中止。

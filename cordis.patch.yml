@@ -1,0 +1,7 @@
+# dsh-file-confirm bundle patch
+# `dsh plugin add dsh-file-confirm` 安装时，此层自动注册插件行。
+- insert:
+    - id: file-confirm
+      name: dsh-file-confirm
+      config:
+        tools: [write, edit, str_replace_editor]
